@@ -1,0 +1,27 @@
+html, body { margin: 0; padding: 0; }
+html { height: 100%; }
+body { min-height: 100%; background: #4393FF; color: #fff; font-family: Tahoma, Geneva, sans-serif; }
+#wrapper { max-width: 1200px; margin: 30px auto; }
+#logo { font-size: 80px; text-align: center; }
+h1 { text-transform: uppercase; text-align: center; font-weight: normal; }
+p { text-align: center; margin: 20px 0 50px; }
+#icon-list { list-style: none; margin: 0; padding: 0; text-align: center; }
+#icon-list li { -webkit-column-break-inside: avoid; break-inside: avoid-column; margin-bottom: 20px; transform-origin: center; transition: all 300ms; cursor: pointer; }
+#icon-list li:hover { transform: scale(1.1); }
+#icon-list .icon { font-size: 25px; }
+#icon-list .classname {  }
+
+/*
+#icon-list li { padding: 2px 0; }
+#icon-list li span { display: inline-block; transform-origin: center; transition: all 500ms; overflow: visible; cursor: pointer; }
+#icon-list li span::before { margin:  5px 10px; }
+#icon-list li span:hover { transform: scale(1.1); }
+*/
+
+@media only screen and (min-width: 600px) {
+    #icon-list {  -webkit-column-count: 2;  -moz-column-count: 2;  column-count: 2; }
+}
+
+@media only screen and (min-width: 950px) {
+    #icon-list {  -webkit-column-count: 4;  -moz-column-count: 4;  column-count: 4; }
+}
