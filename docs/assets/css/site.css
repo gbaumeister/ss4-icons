@@ -1,6 +1,7 @@
 html, body { margin: 0; padding: 0; }
 html { height: 100%; }
-body { min-height: 100%; background: #4393FF; color: #fff; font-family: Tahoma, Geneva, sans-serif; }
+body { min-height: 100%; color: #fff; font-family: Tahoma, Geneva, sans-serif; background: #4393FF; }
+#bg { background: linear-gradient(#4393FF, #405394); position: fixed; z-index: -1; top: 0; right: 0; bottom: 0; left: 0; }
 #wrapper { max-width: 1200px; margin: 30px auto; }
 #logo { font-size: 80px; text-align: center; }
 h1 { text-transform: uppercase; text-align: center; font-weight: normal; }
